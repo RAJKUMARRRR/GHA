@@ -18,4 +18,4 @@ jobs:
            NUMBER: ${{github.event.issue.number}}
            BODY: >
              Please refer guidelines for reference
-             *sparkles* Thanks you for your contribution *sparkles*
+             :sparkles: Thanks you for your contribution :sparkles:
