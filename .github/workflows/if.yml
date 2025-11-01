@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Step 1 
-      - run: echo "This is from step 1"
+        run: echo "This is from step 1"
 
   job-2:
     runs-on: ubuntu-latest
