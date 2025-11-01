@@ -5,7 +5,7 @@ on:
 
 jobs:
   job-1:
-    if: github.repository == 'RAJKUMARRRR/GHA'
+    if: github.repository == 'RAJKUMARRRR/-GHA'
     runs-on: ubuntu-latest
     steps:
       - name: Step 1 
