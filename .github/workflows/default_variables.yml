@@ -9,3 +9,5 @@ jobs:
    - run: |
       echo "$GITHUB_REF"
       echo "${GITHUB_REF_NAME}"
+      echo "$GITHUB_TRIGGERING_ACTOR"
+      echo "$GITHUB_ACTOR"
