@@ -1,0 +1,9 @@
+name: Demo default variables
+on:
+ workflow_dispatch
+
+jobs:
+ print-default-vars:
+  runs-on: ubuntu-latest
+  steps:
+   - run: echo "${GITHUB_REF}"
